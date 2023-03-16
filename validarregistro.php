@@ -19,8 +19,8 @@ $datos = "$nombre|$email|$contraseña!$repetircontraseña/n";
 file_put_contents($archivo, $datos, FILE_APPEND);
 
 // Redirigir al usuario a la página de confirmación
-header(`location: registro.html`);
+
 header('Location: login.html');
-header(`location: turnos.html`);
+
 exit();
 ?>

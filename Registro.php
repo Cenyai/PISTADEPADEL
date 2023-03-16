@@ -5,8 +5,9 @@ $username = "nombre_usuario";
 $email = "email";
 $password = "contraseña";
 $repetirpassword = "repetircontraseña";
+$dbname = "nombre_base_de_datos";
 
-$conn = new mysqli($servername, $username,$email, $password, $repetirpassword);
+$conn = new mysqli($servername, $username,$email, $password, $repetirpassword, $dbname);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
@@ -15,6 +16,7 @@ if ($conn->connect_error) {
 $nombre = $_POST["nombre"];
 $email = $_POST["email"];
 $password = $_POST["password"];
+
 
 // Insertar los datos en la tabla "usuarios"
 $sql = "INSERT INTO usuarios (nombre, email, password) VALUES ('$nombre', '$email', '$password')";
