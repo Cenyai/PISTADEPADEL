@@ -1,6 +1,6 @@
 <?php
 // Obtener los datos del formulario
-$nombre = $_POST['nombre'];
+$nombre = $_POST['root'];
 $email=$_POST[`email`];
 $contraseña = $_POST['contraseña'];
 $repetircontraseña=$_POST[`repetir contraseña`];

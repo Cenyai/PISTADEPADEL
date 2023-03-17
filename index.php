@@ -1,8 +1,8 @@
 <?php
 
 $servername = "localhost";  // Nombre del servidor
-$username = "usuario";     // Nombre de usuario de la base de datos
-$password = "contraseña";  // Contraseña de la base de datos
+$username = "root";     // Nombre de usuario de la base de datos
+$password = "";  // Contraseña de la base de datos
 $dbname = "padel";   // Nombre de la base de datos
 
 // Crear conexión
