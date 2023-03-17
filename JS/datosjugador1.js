@@ -16,3 +16,4 @@ document.getElementById("jugador1-form").addEventListener("submit", function(eve
     xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xhttp.send("nombre="+nombre+"&email="+email+"&teléfono="+telefono+"$pista="+pista);
 });
+
