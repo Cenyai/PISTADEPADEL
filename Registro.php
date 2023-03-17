@@ -1,11 +1,13 @@
 <?php
+var_dump($_POST);
+exit;
 // Conectarse a la base de datos
 $servername = "localhost";
-$username = "nombre_usuario";
+$username = "root";
 $email = "email";
-$password = "contraseña";
+$password = "";
 $repetirpassword = "repetircontraseña";
-$dbname = "nombre_base_de_datos";
+$dbname = "padel";
 
 $conn = new mysqli($servername, $username,$email, $password, $repetirpassword, $dbname);
 if ($conn->connect_error) {
@@ -15,7 +17,7 @@ if ($conn->connect_error) {
 // Obtener los datos del formulario
 $nombre = $_POST["nombre"];
 $email = $_POST["email"];
-$password = $_POST["password"];
+$signal = $_POST["password"];
 
 
 // Insertar los datos en la tabla "usuarios"
