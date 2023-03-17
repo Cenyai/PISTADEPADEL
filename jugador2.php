@@ -19,7 +19,7 @@ $telefono = $_POST[`telefono`];
 $pista = $_POST[`pista `];
 
 // Ejecutar una consulta para insertar los datos en la tabla correspondiente
-$sql = "INSERT INTO jugadores1 (nombre, email, telefono, pista) VALUES ('$nombre','$email', `$telefono`, `$pista`)";
+$sql = "INSERT INTO jugador2 (nombre, email, telefono, pista) VALUES ('$nombre','$email', `$telefono`, `$pista`)";
 
 if ($conn->query($sql) === TRUE) {
     echo "Los datos se han enviado correctamente.";
