@@ -1,3 +1,7 @@
 body{
     background-color: cadetblue;
 }
+
+.pistas img{
+    width: 100%;
+}
