@@ -16,35 +16,15 @@
     margin-right: 70%;
 }
 
-.im1{
-    width: 30%;
-    height: 50%;
-    margin-left: 20%;
-    
-}
-.im2{
-    width: 30%;
-    height: 50%;
-    margin-left: 60%;
+#imi{
+    background-image: url("../img/IMG-20230314-WA0003.jpg");
+    width: 90%;
+    height: 560px;
+   
 }
 
-.im3{
-    width: 30%;
-    margin-left: 40%;
-    margin-left: 20%;
-}
 
-.im4{
-    width: 30%;
-    margin-left: 40%;
-    margin-left: 60%;
-}
 
-.im5{
-    width: 30%;
-    margin-left: 40%;
-    margin-left: 20%;
-}
 
 #larg1{
     width: 60%;
