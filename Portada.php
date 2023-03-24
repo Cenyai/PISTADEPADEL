@@ -77,7 +77,10 @@
                             </div>
                         </div>
                         <input type="submit" value="Reservar" class="btn btn-primary">
+                       
                     </form>
+                    <br>
+                     <a href="turnos.html" class="btn btn-primary">turnos</a>
                 </div>
     
             </div>
